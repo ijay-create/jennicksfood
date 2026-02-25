@@ -1,0 +1,44 @@
+/* src/styles/root.css */
+
+/* Root variables for theme */
+:root {
+  --primary-bg: #121212;
+  --secondary-bg: #ffffff;
+  --accent-color: #fc7209;
+  --text-color-light: #ffffff;
+  --text-color-dark: #121212;
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Montserrat', sans-serif;
+}
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--primary-bg);
+  color: var(--text-color-light);
+}
+
+/* Anchor Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+  border: none;
+  font-family: var(--font-body);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}

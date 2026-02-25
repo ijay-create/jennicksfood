@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic:wght@100..400&display=swap');
+.services-section {
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+  gap: 2rem;
+  flex-wrap: wrap;;
+  padding: 4rem 2rem;
+  text-align: center;
+  background: #1e1e1e;
+  color: var(--text-color-light);
+}
+
+.services-section h2 {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-family: "Playwrite NZ Basic", cursive;
+  font-weight: 900;
+}
+
+.service-cards {
+  display: flex;
+  gap: 2rem;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+  scroll-behavior: smooth;
+}
+
+.service-card {
+  min-width: 220px;
+  background: var(--secondary-bg);
+  color: var(--text-color-dark);
+  border-radius: 12px;
+  padding: 2rem;
+  flex-shrink: 0;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+}

@@ -1,0 +1,92 @@
+footer {
+  background: var(--primary-bg);
+  color: var(--text-color-light);
+  padding: 2rem;
+  text-align: center;
+}
+
+footer .socials a {
+  margin: 0 0.5rem;
+  color: var(--accent-color);
+  transition: 0.3s;
+}
+
+footer .socials a:hover {
+  transform: scale(1.2);
+}
+
+footer form {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+footer input {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+}
+
+footer button {
+  background: var(--accent-color);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  color: var(--text-color-light);
+}
+
+.footer {
+  background: #111;
+  color: white;
+  padding: 60px 8%;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.socials a {
+  margin-left: 15px;
+  color: white;
+  transition: 0.3s;
+}
+
+.socials a:hover {
+  color: #8b4510;
+  transform: scale(1.1);
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.newsletter input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.newsletter button {
+  padding: 10px 16px;
+  background: #8b4510;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.footer .socials a {
+  margin: 0 0.5rem;
+  color: #fff;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.footer .socials a:hover {
+  color: var(--accent-color);
+  transform: scale(1.1);
+}
