@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Croissant, Cake, Coffee } from "lucide-react";
-import "../styles/featuresGrid.css";
+import "../styles/FeaturesGrid.css";
 
 const features = [
   { icon: <Croissant size={48} />, title: "Fresh Pastries", desc: "Baked every morning." },
