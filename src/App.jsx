@@ -17,13 +17,13 @@ function App() {
     <>
       <Navbar />
       <Hero />
+      <ProductMenu />
+      <Blog />
       <About />
       <FeaturesGrid />
       <ServiceHighlight />
       <Process />
-      <ProductMenu />
       <Testimonials />
-      <Blog />
       <Contact/>
       <Footer />
     </>
