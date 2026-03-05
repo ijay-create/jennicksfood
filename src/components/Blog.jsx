@@ -4,6 +4,12 @@ import "../styles/Blog.css";
 import blog1 from "../assets/images/blog1.jpg";
 import blog2 from "../assets/images/blog2.jpg";
 import blog3 from "../assets/images/blog3.jpg";
+import blog4 from "../assets/images/blog4.jpg";
+import blog5 from "../assets/images/blog5.jpg";
+import blog6 from "../assets/images/blog6.jpg";
+import blog7 from "../assets/images/blog7.jpg";
+import blog8 from "../assets/images/blog8.jpg";
+import blog9 from "../assets/images/blog9.jpg";
 
 const blogs = [
   { 
@@ -24,6 +30,42 @@ const blogs = [
     desc: "Explore the upcoming pastry trends, flavor combinations, and presentation ideas that will dominate next year.",
     link: "#"
   },
+  { 
+    img: blog4, 
+    title: "jollof Rice Delicacies",
+    desc: "Discover the rich history and diverse variations of jollof rice, a beloved West African dish that has captured the hearts of food lovers worldwide.",
+    link: "#"
+  },
+  { 
+    img: blog5, 
+    title: "Bole and Smoked Fish",  
+    desc: "Explore the delicious combination of bole and smoked fish, a popular street food in Nigeria that offers a perfect blend of smoky, savory flavors.",
+    link: "#"
+  },
+  { 
+    img: blog6, 
+    title: "Nkwobi",
+    desc: "Discover the rich flavors of Nkwobi, a traditional Nigerian delicacy made from cow foot, seasoned with a spicy palm oil sauce and garnished with onions and utazi leaves.",
+    link: "#"
+  },
+  { 
+    img: blog7, 
+    title: "Ofada Rice",       
+    desc: "Experience the creamy, flavorful goodness of Ofada rice, a traditional Nigerian dish that's perfect for special occasions.",
+    link: "#"
+  },
+  { 
+    img: blog8, 
+    title: "Moi-Moi Recipes",
+    desc: "Discover the deliciousness of Moi-Moi, a traditional Nigerian steamed pudding made from black-eyed peas.",
+    link: "#"
+  },
+  { 
+    img: blog9, 
+    title: "Peppered Snail Recipes",
+    desc: "Discover the flavors of traditional Nigerian dishes, including the spicy and aromatic peppered snail.",
+    link: "#"
+  }
 ];
 
 const Blog = () => (
